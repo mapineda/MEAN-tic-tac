@@ -1,13 +1,17 @@
 <% include ../partials/header.ejs %>
 
 <form name="new_user_form" id="new_user_form" method="post" action="/users">
-    <div>
-        Name: <input type="text" name="name" id="name">
+
+    <label for="basic-url">Sign Up!</label>
+    <br>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" name='name' id='name'>
     </div>
-    <div>
-        Email: <input type="text" name="email" id="email">
+    <!-- <label for='email'>Email:</label> -->
+    <div class="input-group">
+      <input type="text" class='form-control' placeholder="Email" name="email" id="email">
     </div>
-    <input type="submit" value="Save">
+    <input class='btn btn-primary text-center' type="submit" value="Save">
 </form>
 
 <% include ../partials/footer.ejs %>

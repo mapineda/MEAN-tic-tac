@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 // GET new user
 router.get('/new', function(req, res, next) {
-  res.send('users/new');
+    res.render('users/new');
 });
 
 //INDEX
