@@ -3,16 +3,27 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource'); //INDEX
-});
-
-router.get('/:id', function(req, res){
-  //SHOW
+  res.send('respond with a resource');
 });
 
 // GET new user
 router.get('/new', function(req, res, next) {
   res.send('users/new');
+});
+
+//INDEX
+router.get('/', function(req, res) {
+
+});
+
+//SHOW
+router.get('/:id', function(req, res){
+
+});
+
+// NEW
+router.get('/new', function(req, res) {
+
 });
 
 //CREATE

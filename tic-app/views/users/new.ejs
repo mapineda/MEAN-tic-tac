@@ -1,0 +1,13 @@
+<% include ../partials/header.ejs %>
+
+<form name="new_user_form" id="new_user_form" method="post" action="/users">
+    <div>
+        Name: <input type="text" name="name" id="name">
+    </div>
+    <div>
+        Email: <input type="text" name="email" id="email">
+    </div>
+    <input type="submit" value="Save">
+</form>
+
+<% include ../partials/footer.ejs %>
