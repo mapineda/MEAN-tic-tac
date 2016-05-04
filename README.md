@@ -6,6 +6,8 @@ MEAN stack comprises of MongoDB, Express, Angular and Node.js
 
 ## Process
 
+###Gitflow
+Using feature branches for development.
 
 
 ## Contact
