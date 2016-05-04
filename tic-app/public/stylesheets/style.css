@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  padding: 50px;
+  padding: 10px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -11,13 +11,37 @@ a {
   color: #00B7FF;
 }
 
+/* HEADER */
 
+/* NAV/NAVBAR */
+
+/* MAIN APP */
 #main {
-    margin: 20px;
-    height: 500px;
+    padding: 0;
+    margin: 10px;
+    height: 675px;
 }
 
+#name {
+  margin: 5px;
+  margin-bottom: 20px;
+
+}
+
+#email {
+  margin: 5px;
+}
+
+#save-btn {
+  margin-top: 50px;
+}
+
+
+
+/* FOOTER */
 footer {
     font-size: 80%;
     color: gray;
+    margin-bottom: 0;
+    padding: 0;
 }
