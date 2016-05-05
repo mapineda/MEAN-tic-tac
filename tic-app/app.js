@@ -60,5 +60,15 @@ app.use(function(err, req, res, next) {
   });
 });
 
+var User = require('./models/user');
+
+//create new user
+var che = new User({
+  name: 'adamada',
+  email: 'lynnfelix@mailinator.com'
+});
+
+che.sayHello();
+
 
 module.exports = app;
