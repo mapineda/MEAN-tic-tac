@@ -47,6 +47,13 @@ router.delete('/:id', function(req, res) {
 });
 
 
+//SHOW USER
+router.post('/', function(req, res, next) {
+    res.render('users/show', {
+        name: req.body.name,
+        favorite: req.body.email
+    });
+});
 
 
 router.get('')

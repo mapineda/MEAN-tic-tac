@@ -22,6 +22,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+// add mongoose connection
+var mongoose = require('mongoose');
+mongoose.connect(process.env.DB_CONN_TIC_TAC);
+
 app.use('/', routes);
 app.use('/users', users);
 
